@@ -1,0 +1,60 @@
+.main-nav {
+  display: flex;
+  background-color:  var(--primary);
+  height: 4rem;  
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  
+  margin-left: 2rem;
+}
+
+.logo-image {  
+  width: 2.5rem;
+  margin-right: 0.7rem;  
+}
+
+.header-title {
+  font-size: 2rem;  
+  color: #FFF;
+  font-style: italic;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu > li:nth-child(2){
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.active {
+  opacity: 100%;
+  font-weight: bold;    
+}
+
+.nav-link {
+  font-style: normal;
+  color: rgb(243, 243, 243); 
+  font-size: 1.5rem;  
+  opacity: 98%;
+}
+
+.nav-link:hover {  
+  opacity: 90%;
+}
+
+.nav-link:focus{
+  color: #FFF;
+  border-bottom: 2px solid;
+}
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
