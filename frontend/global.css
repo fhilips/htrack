@@ -5,6 +5,17 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  color: #29292e;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   font-weight: 700;
