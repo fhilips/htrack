@@ -1,0 +1,19 @@
+.peso-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.table {
+  width: 40rem;
+}
+
+.button-peso {
+  width: 40rem;
+  height: 3rem;
+  background-color: #fff;
+  
+  border: 1px solid var(--primary);
+  border-radius: 0 0 1rem 1rem;
+}
