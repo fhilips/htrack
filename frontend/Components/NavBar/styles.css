@@ -1,14 +1,16 @@
+
 .main-nav {
   display: flex;
   background-color:  var(--primary);
   height: 4rem;  
   align-items: center;
+  
 }
 
 .logo-container {
   display: flex;
-  
-  margin-left: 2rem;
+  margin-top: 0;
+  margin-left: 2rem;  
 }
 
 .logo-image {  
@@ -58,3 +60,31 @@
   justify-content: flex-end;
   align-items: center;
 }
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 770px) { 
+  
+ .logo-container{
+    width:90%;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+ }
+
+ .login-button {
+    display: none;  
+ }
+
+ .links {
+   display: none;
+ }
+
+ .menu-icon {
+  display: flex;
+  width: 2rem;  
+  margin-left: auto; 
+  margin-bottom: 10px;
+}
+
+ }

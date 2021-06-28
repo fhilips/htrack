@@ -10,19 +10,22 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="../global.css" />
-    <title>PageHeader</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../../global.css" />
+    <title>NavBar</title>
   </head>
   <body>       
     <nav class="row main-nav">
 
       <div class="col-3 logo-container">
-        <img class="logo-image" src="../images/running.png" alt="" />
-        <h1 class="header-title">H-Track</h1>
-      </div>
+        <img class="logo-image" src="../../assets/images/running.png" alt="" />
+        <h1 class="header-title">H-Track</h1> <div class="menu-icon">
+          <img class="menu-image" src="../../assets/images/menu.svg" alt="" />
+        </div>   
 
-      <div class="col-5">            
+      </div>
+      
+      <div class="col-5 links" >            
         <ul class="main-menu">
           <li>
             <a class="nav-link" href="#">Health</a>
@@ -38,10 +41,8 @@
        
       <div class="col-3 login-button mx-auto">        
         <button type="button" class="btn btn-outline-light">Entrar</button>
-      </div>      
+      </div>
+        
     </nav>
-    <div>
-      
-    </div>    
   </body>
 </html>
