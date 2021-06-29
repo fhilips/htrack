@@ -1,10 +1,12 @@
-
+body {
+    overflow:hidden;    
+}
 .main-nav {
   display: flex;
   background-color:  var(--primary);
   height: 4rem;  
   align-items: center;
-  
+  border-bottom: 0.2rem solid rgb(42, 12, 216);
 }
 
 .logo-container {
@@ -44,6 +46,14 @@
   color: rgb(243, 243, 243); 
   font-size: 1.5rem;  
   opacity: 98%;
+}
+
+.divisor-links {
+  border-right: 0.1rem solid #FFF;
+  height: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 50%;
 }
 
 .nav-link:hover {  

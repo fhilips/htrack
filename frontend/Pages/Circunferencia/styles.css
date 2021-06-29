@@ -1,13 +1,24 @@
+
 .circunferencia-container {
   display: flex;
   flex-direction: column;
   align-items: center;  
+ 
 }
 
 .circunferencia-container tr {
-  text-align: center;
+  text-align: center;  
 }
 
+.table-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-card h2 {
+  margin-bottom: 1rem;
+}
 .table {
   width: 40rem;
 }

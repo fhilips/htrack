@@ -1,0 +1,67 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section+h4 {
+  margin-top: 2rem;
+  border-top: 1px solid;
+}
+
+.perfil-image {
+  width: 15rem;
+  margin: 1rem 1rem;
+}
+ 
+.divisoria {
+  width: 40rem;
+  height: 2px;
+  background: rgb(196,196,196);
+ 
+}
+
+.card {
+  width: 40rem;
+  margin: 1.5rem 1rem;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.list-item-attribute{
+  width:15%;
+}
+
+@media (max-width: 660px) {
+  .card {
+    width: 80%;
+  }
+
+  .list-item-attribute{
+    width:25%;
+  }
+}
+
+@media (max-width: 500px) {
+  .perfil-image {
+    width: 10rem;    
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .list-item-attribute{
+    width:30%;
+  }
+
+  .list-group {
+    font-size: 0.8rem;
+  }
+  
+}
+
+
