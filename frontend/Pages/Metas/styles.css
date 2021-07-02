@@ -1,4 +1,4 @@
-.home-container {
+.perfil-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +29,11 @@ section+h4 {
 .list-group-item {
   display: flex;
   justify-content: space-between; 
+}
+
+.list-group-item span {
+  color: rgb(7, 7, 7);
+  opacity: 0.5;
 }
 
 .list-item-attribute{

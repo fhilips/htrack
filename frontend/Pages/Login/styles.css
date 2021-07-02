@@ -82,8 +82,13 @@ aside {
   margin-left: 0.5rem;
   color: var(--primary);
 }
+
 .card-login span:hover {
   text-decoration-line: underline;
+}
+
+#button-link {
+  width: 10rem;
 }
 
 .button-container {

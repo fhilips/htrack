@@ -17,8 +17,7 @@ section+h4 {
 .divisoria {
   width: 40rem;
   height: 2px;
-  background: rgb(196,196,196);
- 
+  background: rgb(196,196,196); 
 }
 
 .card {
@@ -31,12 +30,20 @@ section+h4 {
   justify-content: space-between;
 }
 
+.list-group-item span {
+  opacity: 0.5;
+}
+
 .list-item-attribute{
   width:15%;
 }
 
 @media (max-width: 660px) {
   .card {
+    width: 80%;
+  }
+
+  .divisoria {
     width: 80%;
   }
 
@@ -50,6 +57,10 @@ section+h4 {
     width: 10rem;    
   }
 
+  .divisoria {
+    width: 80%;
+  }
+
   .card {
     width: 80%;
   }
@@ -60,8 +71,7 @@ section+h4 {
 
   .list-group {
     font-size: 0.8rem;
-  }
-  
+  }  
 }
 
 

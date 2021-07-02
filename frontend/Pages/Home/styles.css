@@ -18,5 +18,11 @@ section+h4 {
 
 .list-group-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between
+}
+
+@media (max-width: 520px) {
+  .card {
+    width: 80%;
+  }
 }
